@@ -21,7 +21,7 @@ function loading()
     {
         var text;
         text  = '<i class="glyphicon glyphicon-refresh glyphicon-refresh-animate pull-right"></i>';
-        text += 'Please wait, logout ...';
+        text += '<strong>Logout</strong>, please wait ...';
         document.getElementById("alert").innerHTML=text;
         setTimeout('loading()', 1000);
     }

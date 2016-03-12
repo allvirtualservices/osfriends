@@ -6,6 +6,7 @@
 <?php if(isset($_SESSION['flash'])): ?>
     <?php foreach($_SESSION['flash'] as $type => $message): ?>
         <div class="alert alert-<?php echo $type; ?> alert-anim">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
             <?php echo $message; ?>
         </div>
     <?php endforeach; ?>

@@ -5,7 +5,7 @@ unset($_SESSION["username"]);
 unset($_SESSION['useruuid']);
 ?>
 
-<h1><?php echo $osfriends; ?> <span class="pull-right">Logout</span></h1>
+<h1>Logout<i class="glyphicon glyphicon-log-out pull-right"></i></h1>
 <div id="alert" class="alert alert-info alert-anim"></div>
 
 <script>

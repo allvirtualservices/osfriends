@@ -12,6 +12,11 @@ $dbpass = "<DB PASS>";
 $dbname = "<DB NAME>";
 $tbname = "friends";
 
+/* RIBBON CONFIG */
+$display_ribbon = TRUE;
+$github_url = "https://github.com/djphil/osfriends";
+
+/* STYLE CONFIG */
 $useTheme = TRUE;
 /* Navbar Style */
 // navbar

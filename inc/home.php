@@ -1,5 +1,5 @@
 <?php if (isset($_SESSION['valid'])): ?>
-    <h1><?php echo $osfriends; ?><span class="pull-right">Home</span></h1>
+    <h1>Home<i class="glyphicon glyphicon-home pull-right"></i></h1>
 <?php endif; ?>
 
 <!-- Fash Message -->

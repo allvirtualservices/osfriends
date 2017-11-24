@@ -13,8 +13,8 @@ html {
   min-height: 100%;
 }
 
-/*body {padding-top: 50px; margin-bottom: 60px;}*/
-body {padding-top: 10px; margin-bottom: 60px;}
+body {padding-top: 50px; margin-bottom: 60px;}
+
 img {
 /*
     width: 100%;
@@ -28,7 +28,7 @@ img.img-profile {width: 128px; height: 128px;}
 .container {;}
 
 .container .text-muted {
-  margin: 20px 0;
+    margin: 20px 0;
 }
 
 
